@@ -6,9 +6,11 @@ import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Navbar from "./components/Navbar";
 import SmoothScroll from "./components/SmoothScroll";
+import CursorGlow from "./components/effects/CursorGlow";
 export default function Home() {
   return (
     <>
+    <CursorGlow />
     <SmoothScroll>
     <Navbar />
     <main>
