@@ -32,18 +32,7 @@ export default function CursorGlow() {
   return (
     <div
       ref={glowRef}
-      className="
-        pointer-events-none
-        fixed
-        z-0
-        h-72
-        w-72
-        -translate-x-1/2
-        -translate-y-1/2
-        rounded-full
-        bg-cyan-500/15
-        blur-3xl
-      "
+      className="pointer-events-none fixed z-50 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/20 blur-3xl"
     />
   );
 }
