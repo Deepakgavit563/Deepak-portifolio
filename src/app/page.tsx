@@ -10,18 +10,18 @@ import CursorGlow from "./components/effects/CursorGlow";
 export default function Home() {
   return (
     <>
-    <CursorGlow />
-    <SmoothScroll>
-    <Navbar />
-    <main>
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Contact />
-    </main>
-    </SmoothScroll>
+    {/* <CursorGlow /> */}
+{/* <SmoothScroll> */}
+<Navbar />
+<main>
+  <Hero />
+  <About />
+  <Skills />
+  <Experience />
+  <Projects />
+  <Contact />
+</main>
+{/* </SmoothScroll> */}
     </>
   );
 }

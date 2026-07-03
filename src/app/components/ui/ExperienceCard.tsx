@@ -13,36 +13,9 @@ export default function ExperienceCard({
   experience: Experience;
 }) {
   return (
-    <div
-      className="
-        group
-        relative
-        rounded-3xl
-        border
-        border-zinc-800
-        bg-zinc-900/60
-        p-6
-        backdrop-blur-md
-        transition-all
-        duration-300
-        hover:-translate-y-2
-        hover:border-cyan-400
-        hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]
-      "
-    >
+    <div className="group relative rounded-3xl border border-zinc-800 bg-zinc-900/40 backdrop-blur-md p-8 transition-all">
       {/* Year Badge */}
-      <span
-        className="
-          inline-block
-          rounded-full
-          bg-cyan-500/20
-          px-4
-          py-1
-          text-sm
-          font-semibold
-          text-cyan-400
-        "
-      >
+      <span className="inline-block rounded-full bg-cyan-500/20 px-4 py-1 text-sm">
         {experience.year}
       </span>
 

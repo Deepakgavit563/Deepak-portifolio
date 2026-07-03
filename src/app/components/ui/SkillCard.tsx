@@ -1,37 +1,31 @@
-"use client";
+import { IconType } from "react-icons";
 
 type Skill = {
   name: string;
-  icon: string;
+  icon: IconType;
   color: string;
 };
 
 export default function SkillCard({ skill }: { skill: Skill }) {
+  const Icon = skill.icon;
+  console.log(skill);
   return (
     <div
-      className="
-        group
-        rounded-2xl
-        border
-        border-zinc-800
-        bg-zinc-900/50
-        p-6
-        backdrop-blur
-        transition-all
-        duration-300
-        hover:-translate-y-2
-        hover:border-cyan-400
-        hover:shadow-[0_0_30px_rgba(34,211,238,0.2)]
-      "
-    >
-      <div
-        className="mb-4 text-5xl transition-transform duration-300 group-hover:scale-110"
-        style={{ color: skill.color }}
-      >
-        {skill.icon}
-      </div>
+  className="group relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 backdrop-blur-md p-8 text-center transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/50 hover:shadow-[0_0_40px_rgba(34,211,238,0.18)]"
+>
+  <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-indigo-500/5 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-      <h3 className="text-lg font-semibold">{skill.name}</h3>
-    </div>
+  <div className="relative z-10">
+    <Icon
+      size={52}
+      color={skill.color}
+      className="mx-auto mb-5 transition-transform duration-500 group-hover:scale-125 group-hover:rotate-6"
+    />
+
+    <h3 className="mt-2 text-lg font-semibold text-white">
+      {skill.name}
+    </h3>
+  </div>
+</div>
   );
 }

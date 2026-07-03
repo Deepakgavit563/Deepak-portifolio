@@ -13,6 +13,8 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Skills() {
   const container = useRef<HTMLDivElement>(null);
 
+  // Keep GSAP disabled until hydration issue is fixed
+  
   useGSAP(() => {
     gsap.from(".skill-card", {
       opacity: 0,
@@ -27,28 +29,30 @@ export default function Skills() {
     });
   }, { scope: container });
 
+
   return (
-    <section
-      ref={container}
-      className="bg-[#09090b] py-28 px-6"
-    >
-      <div className="mx-auto max-w-7xl">
-        <p className="text-center uppercase tracking-[0.3em] text-cyan-400">
-          Skills
-        </p>
+  <section
+    id="skills"
+    ref={container}
+    className="relative py-32 px-6"
+  >
+    <div className="mx-auto max-w-7xl">
+      <p className="text-center uppercase tracking-[0.3em] text-cyan-400">
+        Skills
+      </p>
 
-        <h2 className="mt-4 text-center text-4xl font-bold md:text-5xl">
-          Technologies I Work With
-        </h2>
+      <h2 className="mt-4 text-center text-4xl font-bold md:text-5xl">
+        Technologies I Work With
+      </h2>
 
-        <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
-          {skills.map((skill) => (
-            <div key={skill.name} className="skill-card">
-              <SkillCard skill={skill} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+      <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
+  {skills.map((skill) => (
+    <div key={skill.name} className="skill-card">
+      <SkillCard skill={skill} />
+    </div>
+  ))}
+</div>
+    </div>
+  </section>
+);
 }
