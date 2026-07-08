@@ -8,33 +8,32 @@ export type Project = {
   featured?: boolean;
 };
 
-export const projects: Project[] = [
+export const projects = [
   {
     title: "Portfolio Website",
-    description:
-      "A modern developer portfolio built with Next.js, GSAP, Tailwind CSS, and TypeScript featuring smooth animations and responsive design.",
+    description: "...",
     image: "/projects/portfolio.png",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind", "GSAP"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://portfolio.vercel.app",
+    technologies: ["Next.js", "React", "GSAP"],
+    github: "#",
+    live: "#",
     featured: true,
   },
   {
-    title: "E-Commerce Store",
-    description:
-      "Full-stack e-commerce platform with authentication, cart, payment integration, and admin dashboard.",
+    title: "E-Commerce",
+    description: "...",
     image: "/projects/ecommerce.png",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/yourusername/ecommerce",
-    live: "https://ecommerce.vercel.app",
+    technologies: ["React", "Node.js"],
+    github: "#",
+    live: "#",
+    featured: false,
   },
   {
     title: "Task Manager",
-    description:
-      "A productivity app for organizing tasks with drag-and-drop functionality and authentication.",
+    description: "...",
     image: "/projects/taskmanager.png",
-    technologies: ["Next.js", "Prisma", "PostgreSQL"],
-    github: "https://github.com/yourusername/taskmanager",
-    live: "https://taskmanager.vercel.app",
+    technologies: ["Next.js", "Prisma"],
+    github: "#",
+    live: "#",
+    featured: false,
   },
 ];
