@@ -75,11 +75,11 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="text-3xl text-white md:hidden"
-          onClick={() => setOpen(!open)}
-        >
-          ☰
-        </button>
+  className="md:hidden fixed top-5 right-5 z-[9999] rounded-full bg-red-500 p-3 text-white"
+  onClick={() => setOpen(!open)}
+>
+  ☰
+</button>
       </nav>
 
       {/* Mobile Menu */}
