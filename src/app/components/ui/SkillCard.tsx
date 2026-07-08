@@ -8,7 +8,7 @@ type Skill = {
 
 export default function SkillCard({ skill }: { skill: Skill }) {
   const Icon = skill.icon;
-  console.log(skill);
+  
   return (
     <div
   className="group relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 backdrop-blur-md p-8 text-center transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/50 hover:shadow-[0_0_40px_rgba(34,211,238,0.18)]"
