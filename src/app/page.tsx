@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import SmoothScroll from "./components/SmoothScroll";
 import CursorGlow from "./components/effects/CursorGlow";
 import ScrollProgress from "./components/ui/ScrollProgress";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Contact />
+        <Footer />
       </main>
 
       {/* </SmoothScroll> */}
