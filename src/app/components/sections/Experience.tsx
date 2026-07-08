@@ -54,8 +54,9 @@ export default function Experience() {
 
   return (
     <section
+      id="experience"
       ref={container}
-      className="bg-[#09090b] py-28 px-6"
+      className="bg-[#09090b] py-28 px-6 scroll-mt-24"
     >
       <div className="mx-auto max-w-5xl">
 

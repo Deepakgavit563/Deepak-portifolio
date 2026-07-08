@@ -72,7 +72,7 @@ export default function Hero() {
   return (
     <section
       ref={container}
-      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 scroll-mt-24"
     >
       {/* Background */}
       <div className="absolute inset-0 bg-[#09090b]" />
