@@ -62,7 +62,7 @@ export default function Projects() {
     <section
       id="projects"
       ref={container}
-      className="relative py-32 px-6 scroll-mt-24"
+      className="relative py-32 px-6 scroll-mt-10"
     >
       <div className="mx-auto max-w-7xl">
         <p className="text-center uppercase tracking-[0.3em] text-cyan-400">

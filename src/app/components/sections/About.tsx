@@ -52,7 +52,7 @@ export default function About() {
     <section
       ref={container}
       id="about"
-      className="min-h-screen flex items-center justify-center px-6 scroll-mt-24"
+      className="min-h-screen flex items-center justify-center px-6 scroll-mt-21"
     >
       <div className="mx-auto grid max-w-6xl items-center gap-16 md:grid-cols-2">
         {/* Left */}
