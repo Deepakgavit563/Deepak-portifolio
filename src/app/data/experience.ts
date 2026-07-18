@@ -6,17 +6,18 @@ export const experiences = [
     description:
       "Building scalable web applications using React, Next.js, Node.js and MongoDB.",
   },
+ 
   {
-    year: "2024",
-    title: "MERN Stack Developer",
-    company: "Internship",
+    year: "2021 - 2024",
+    title: "B.Tech Computer Engineering",
+    company: "Vishwakarma Institute Of Technologoies",
     description:
-      "Developed responsive applications and REST APIs using the MERN stack.",
+      "Focused on software engineering, web development and data structures.",
   },
   {
-    year: "2021 - 2025",
-    title: "B.Tech Computer Engineering",
-    company: "University",
+    year: "2028 - 2021",
+    title: "Diploma in Computer Engineering",
+    company: "Marathwada Mitra Mandal's Polytechnic, Pune",
     description:
       "Focused on software engineering, web development and data structures.",
   },
