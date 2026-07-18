@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Social Links */}
         <div className="mt-8 flex items-center gap-5">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/deepakgavit563"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-zinc-700 p-3 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.3)]"
@@ -36,7 +36,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/deepakgavit563"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-zinc-700 p-3 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.3)]"
@@ -45,7 +45,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:your@email.com"
+            href="mailto:deepakgavit563@gmail.com"
             className="rounded-full border border-zinc-700 p-3 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.3)]"
           >
             <FaEnvelope size={20} />

@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Deepak Gavit",
-  template: "%s | Deepak Gavit",
   description: "Portfolio of Deepak Gavit, Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
 };
 
